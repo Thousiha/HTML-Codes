@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7eaea;
+            margin: 0;
+            padding: 0;
+        }
+        .pricing-table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #da1515;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        tr:hover td {
+            background-color: #f1f1f1;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .features {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="pricing-table">
+        <thead>
+            <tr>
+                <th>Plan</th>
+                <th>Price</th>
+                <th>Features</th>
+            </tr>
+        </thead>
+        <tbody">
+            <tr>
+                <td>Basic Plan</td>
+                <td class="price">$19.99/month</td>
+                <td class="features">
+                    <ul style="line-height:35px";>
+                        <li>1 User</li>
+                        <li>10GB Storage</li>
+                        <li>Email Support</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Standard Plan</td>
+                <td class="price">$39.99/month</td>
+                <td class="features">
+                    <ul style="line-height:35px";>
+                        <li>5 Users</li>
+                        <li>50GB Storage</li>
+                        <li>Priority Support</li>
+                        <li>Advanced Features</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Premium Plan</td>
+                <td class="price">$79.99/month</td>
+                <td class="features">
+                    <ul style="line-height:35px";>
+                        <li>Unlimited Users</li>
+                        <li>200GB Storage</li>
+                        <li>24/7 Support</li>
+                        <li>All Features</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
